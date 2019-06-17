@@ -30,6 +30,7 @@ export default (state = initialState, action) => {
           count: state.count + 1
         }
       }
+      break
     default:
       return state;
   }
